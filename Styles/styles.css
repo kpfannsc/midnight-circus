@@ -579,13 +579,8 @@ img {
 }
 
 /* Grid layout for cards; left-align everything AFTER the map */
-#access .access-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.5rem;
-  margin-top: 1rem;
-  text-align: left; /* defeat global .container centering */
-}
+
+
 #access .access-card,
 #access .access-card p,
 #access .access-card li,
@@ -594,6 +589,26 @@ img {
   margin-left: 0;
   margin-right: 0;
 }
+.access-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* optional: aligns content nicely */
+  height: 100%; /* 👈 Fills grid cell */
+}
+
+.access-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: stretch; /* 👈 Makes all cards equal height */
+}
+
+@media (max-width: 768px) {
+  .access-grid {
+    grid-template-columns: 1fr; /* Stack on mobile */
+  }
+}
+
 
 /* Cards: translucent purply glass, thin gold edge; no heavy shadow */
 #access .access-card {
@@ -643,10 +658,6 @@ img {
 #access.inview { box-shadow: none; }
 #access.inview::after { opacity: 0.60; } /* ONE source of truth (remove other #access.inview::after rules) */
 
-@media (min-width: 900px) {
-  #access .access-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  #access .access-card.access-rtd { grid-column: 1 / -1; } /* full width on desktop */
-}
 
 /* ===== Footer (midnight gradient + soft gold accents) ===== */
 footer {

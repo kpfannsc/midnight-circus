@@ -917,6 +917,10 @@ body {
 .sg-slide {
   aspect-ratio: 3 / 4;
 }
+/* Make FAQ email links purple */
+#faq a[href^="mailto:"] {
+  color: rgb(32, 14, 32);
+}
 
 /* Nav buttons */
 .sg-nav {

@@ -4,6 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The Midnight Circus</title>
+  <!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Spectral:wght@400;500&family=Libre+Franklin:wght@400;500&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles/styles.css" />
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-JQFWNYH23F"></script>
   <script>
@@ -12,164 +15,393 @@
     gtag('js', new Date());
     gtag('config', 'G-JQFWNYH23F');
   </script>
+  <meta name="theme-color" content="#0B0A10">
+
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="#home">Event Overview</a></li>
-      <li><a href="#about">About the Night</a></li>
-      <li><a href="#schedule">Schedule</a></li>
-      <li><a href="#dresscode">Dress Code</a></li>
-      <li><a href="#access">Travel & Access</a></li>
-      <li><a href="#faq">FAQ</a></li>
-      <li><a href="#gallery">Gallery</a></li>
-    </ul>
-  </nav>
+<nav aria-label="Primary">
+  <a class="skip-link" href="#hero">Skip to content</a>
+  <ul>
+    <li><a href="#hero">Event Overview</a></li>
+    <li><a href="#countdown">Countdown</a></li>
+    <li><a href="#about">About the Night</a></li>
+    <li><a href="#schedule">Schedule</a></li>
+    <li><a href="#dresscode">Style Guide</a></li>
+    <li><a href="#access">Travel & Access</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="#toast">Thank You</a></li>
+    <li><a href="#contact">Contact</a></li>
+    
+  </ul>
+</nav>
+
+
 
   <main>
-<section id="home" class="hero">
+<section class="hero" id="hero">
+  <div class="hero-bg" aria-hidden="true"></div>
   <div class="hero-content">
-    <h1>The Midnight Circus</h1>
-    <h2>Primoris Renewable Energy • 2025 Holiday Party</h2>
-    <p>The Arch, Denver • December XX, 2025 • 6:00 PM – 12:00 AM</p>
-    <p class="tagline">An elegant night of wonder, spectacle, and celebration.</p>
+    <h1>Midnight Circus</h1>
+    <h2>Primoris Renewable Energy • 2025 Annual Celebration</h2>
+    <p>The Arch, Denver • December&nbsp;6,&nbsp;2025 • 6:00&nbsp;PM&nbsp;–&nbsp;11:00&nbsp;PM</p>
+    <p class="tagline">Not all who wander are lost — but they may be amazed.</p>
   </div>
 </section>
+
+<section id="countdown">
+  <div class="container fade-in" style="text-align:center;">
+    <h2>Countdown to the Midnight Circus</h2>
+    <p>The curtain rises in...</p>
+<div id="timer"></div>
+  </div>
+</section>
+
+
 <section id="about">
-  <div class="container">
-    <h2>About the Night</h2>
+  <div class="container fade-in">
+    <h2>Welcome to the Midnight Circus</h2>
     <p>
-      Step into The Midnight Circus—an immersive celebration designed to mesmerize.
-      This year, we’re transforming The Arch into a cinematic experience that blends the
-      elegance of a black-tie gala with the intrigue of a reimagined circus.
+      Tonight, The Arch transforms into a world of rich color, golden light, and unforgettable spectacle. From the moment you arrive, you will be part of an experience designed to surprise, delight, and draw you deeper into its spell.
     </p>
     <p>
-      From rich performances to dramatic transitions and ambient lounge spaces, 
-      every detail is curated to surprise and delight. Expect moody lighting, velvet textures,
-      crafted cocktails, gourmet food, and unexpected encounters.
+      Expect artistry that defies the ordinary. Feats of balance and grace, light that moves like liquid through the dark, and performers who appear where you least expect them. Every turn offers a new scene, every moment a chance to be caught in the wonder of it all.
     </p>
     <p>
-      No clichés. No clowns. Just mystery, glamour, and unforgettable moments.
+      This is a celebration of the people who power Primoris Renewable Energy. Your skill and dedication have built more than projects, you have built moments worth honoring. Tonight we honor that spirit with the presentation of the Steve Larsen Award, an evening of performance that leaves the ordinary far behind, and a party where the music, laughter, and energy carry us well past the final bow.
     </p>
   </div>
 </section>
+
 <section id="schedule">
-  <div class="container">
-    <h2>Schedule & Experiences</h2>
+  <div class="container fade-in">
+    <h2>The Evening's Program</h2>
 
-    <h3>6:00 PM – Come One, Come All</h3>
-    <p>
-      Cocktail hour with a dramatic sidewalk entrance, aerial champagne server, tattoo or henna artist, and interactive décor 
-      like photo ops, cutouts, and a strongman stand.
-    </p>
-
-    <h3>7:00 PM – Step Right Up</h3>
-    <p>
-      Guests take their seats for a heartfelt welcome, committee introductions, a special award presentation, and speeches.
-      Visuals include a central stage flanked by screens.
-    </p>
-
-    <h3>7:30 PM – The Main Event</h3>
-    <p>
-      A seated multi-course dinner paired with a fiery main performance act. After the show, the mood shifts to ambient music.
-    </p>
-
-    <h3>9:00 PM to Midnight – Backstage Pass</h3>
-    <p>
-      The after-party begins with raffle prizes, live entertainers (juggler, caricature artist, fortune teller), 
-      stilt performers guarding a dramatic tunnel entrance, light-up dance floor, whiskey tasting, cigar rolling, 
-      hookah bar, dessert lounge, and a glowing back bar.
-    </p>
-  </div>
-</section>
-<section id="dresscode">
-  <div class="container">
-    <h2>Dress Code Inspiration</h2>
-    <p>
-      The Midnight Circus is more than a party—it’s an invitation to enter a cinematic world of mystery, drama, and elegance.
-      We encourage bold, beautiful attire that transforms each guest into part of the experience.
-    </p>
-    <p>
-      Think rich jewel tones, velvet, satin, and metallic accents. Floor-length gowns, dark florals, embroidered jackets, 
-      moody glam, and layered textures. This is your chance to be dramatic, elegant, and expressive.
-    </p>
-    <p>
-      Please avoid cliché circus elements like stripes or clownwear. Instead, lean into elevated, theatrical fashion—refined and mysterious.
-    </p>
-    <div class="gallery">
-      <img src="images/dresscode-1.jpg" alt="Moody jewel-toned outfit inspiration" loading="lazy" />
-      <img src="images/dresscode-2.jpg" alt="Elegant formalwear with rich textures" loading="lazy" />
-      <img src="images/dresscode-3.jpg" alt="Dramatic accessories and dark floral tones" loading="lazy" />
+    <div class="schedule-card">
+      <h3>6:00 – 7:00 PM</h3>
+      <p><strong>Come One, Come All:</strong> Cocktail Hour</p>
+    </div>
+    <div class="schedule-card">
+      <h3>7:00 – 7:30 PM</h3>
+      <p><strong>Step Right Up:</strong> Greeting & Steve Larsen Award</p>
+    </div>
+    <div class="schedule-card">
+      <h3>7:30 PM</h3>
+      <p><strong>Main Event:</strong> Dinner and a Show</p>
+    </div>
+    <div class="schedule-card">
+      <h3>9:00 – 11:00 PM</h3>
+      <p><strong>Backstage Pass</strong>: Circus After Closing</p>
     </div>
   </div>
 </section>
+
+
+<section id="dresscode">
+  <div class="container fade-in">
+    <h2>Style for the Spectacle</h2>
+    <p>
+      The Midnight Circus is not just an event, it is a setting where every guest adds to the atmosphere. Think of it as a chance to step into a role for the evening and choose something that makes you feel part of the story.
+    </p>
+    <p>
+      Deep, luxurious colors, textured fabrics, and a touch of shimmer or metallic detail can feel right at home here. Instead of circus stripes, imagine a jacket with intricate detail, a gown in rich jewel tones, or a suit with an unexpected flourish. Accessories can be subtle or bold, and a well-chosen masquerade mask can be the perfect finishing touch.
+    </p>
+    <p>
+      We will transform the venue into a Midnight Circus itself — a world of shadow and light, velvet and gold. Arrive in attire that makes you feel at home in that world, ready to step into the scene and become part of the night’s unfolding spectacle.
+    </p>
+
+    <!-- New scrollable gallery -->
+    <div class="style-gallery" aria-label="Style Guide Gallery">
+      <button class="sg-nav prev" aria-label="Previous look" title="Previous look" data-dir="-1">&larr;</button>
+
+      <div class="sg-track" role="list" aria-live="polite">
+       <figure class="sg-slide" role="listitem">
+  <img src="images/dresscode6.jpg" alt="Dress code example 6" loading="lazy" />
+  <figcaption>Unexpected details</figcaption>
+</figure>
+<figure class="sg-slide" role="listitem">
+  <img src="images/dresscode1.jpg" alt="Dress code example 1" loading="lazy" />
+  <figcaption>Classic elegance</figcaption>
+</figure>
+<figure class="sg-slide" role="listitem">
+  <img src="images/dresscode13.png" alt="Dress code example 13" loading="lazy" />
+  <figcaption>Dramatic silhouette</figcaption>
+</figure>
+<figure class="sg-slide" role="listitem">
+  <img src="images/dresscode4.jpg" alt="Dress code example 4" loading="lazy" />
+  <figcaption>Rich jewel tones</figcaption>
+</figure>
+<figure class="sg-slide" role="listitem">
+  <img src="images/dresscode11.png" alt="Dress code example 11" loading="lazy" />
+  <figcaption>Statement mask</figcaption>
+</figure>
+<figure class="sg-slide" role="listitem">
+  <img src="images/dresscode9.webp" alt="Dress code example 9" loading="lazy" />
+  <figcaption>Modern edge</figcaption>
+</figure>
+<figure class="sg-slide" role="listitem">
+  <img src="images/dresscode2.jpeg" alt="Dress code example 2" loading="lazy" />
+  <figcaption>Velvet texture</figcaption>
+</figure>
+<figure class="sg-slide" role="listitem">
+  <img src="images/dresscode10.webp" alt="Dress code example 10" loading="lazy" />
+  <figcaption>Monochrome chic</figcaption>
+</figure>
+<figure class="sg-slide" role="listitem">
+  <img src="images/dresscode14.jpg" alt="Dress code example 14" loading="lazy" />
+  <figcaption>Playful detail</figcaption>
+</figure>
+<figure class="sg-slide" role="listitem">
+  <img src="images/dresscode3.jpg" alt="Dress code example 3" loading="lazy" />
+  <figcaption>Gold accents</figcaption>
+</figure>
+<figure class="sg-slide" role="listitem">
+  <img src="images/dresscode15.webp" alt="Dress code example 15" loading="lazy" />
+  <figcaption>Bold finish</figcaption>
+</figure>
+<figure class="sg-slide" role="listitem">
+  <img src="images/dresscode5.jpg" alt="Dress code example 5" loading="lazy" />
+  <figcaption>Statement accessories</figcaption>
+</figure>
+<figure class="sg-slide" role="listitem">
+  <img src="images/dresscode7.jpg" alt="Dress code example 7" loading="lazy" />
+  <figcaption>Masquerade touch</figcaption>
+</figure>
+<figure class="sg-slide" role="listitem">
+  <img src="images/dresscode12.jpg" alt="Dress code example 12" loading="lazy" />
+  <figcaption>Textured layers</figcaption>
+</figure>
+<figure class="sg-slide" role="listitem">
+  <img src="images/dresscode8.jpg" alt="Dress code example 8" loading="lazy" />
+  <figcaption>Rich fabrics</figcaption>
+</figure>
+
+      </div>
+
+      <button class="sg-nav next" aria-label="Next look" title="Next look" data-dir="1">&rarr;</button>
+    </div>
+  </div>
+</section>
+
 <section id="access">
-  <div class="container">
+  <div class="container fade-in">
     <h2>Travel & Access</h2>
 
     <p>
-      The Midnight Circus will be held at <strong>The Arch – 3001 Walnut St, Denver, CO</strong>.
-      You can view the venue on the map below:
+      The Midnight Circus will unfold at <strong>The Arch – 3001 Walnut St, Denver, CO</strong>, a space transformed for one night only into a world of shadow, light, and celebration. You can find the venue on the map below.
     </p>
 
-    <div style="margin: 2rem 0;">
+    <div class="access-map">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.1464916824526!2d-104.97932792350516!3d39.76131547156037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c78c4bcdfb7d9%3A0xc9c14cc246fb8a0e!2s3001%20Walnut%20St%2C%20Denver%2C%20CO%2080216!5e0!3m2!1sen!2sus!4v1721234567890"
-        width="100%" height="300" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        width="100%" height="320" style="border:0; border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
       </iframe>
     </div>
 
-    <p>
-      <strong>Parking:</strong> Free street parking is available near the venue on a first-come, first-served basis.
-      A paid parking lot is also located directly across the street.
-    </p>
+    <div class="access-grid">
+      <article class="access-card">
+        <h3>Parking</h3>
+        <p>There will be a parking lot across the street that we are renting, and free street parking is also available nearby.</p>
+      </article>
 
-    <p>
-      <strong>Rideshare:</strong> We encourage Uber or Lyft for ease and safety. Guests may receive Uber vouchers — details to follow via email.
-    </p>
+      <article class="access-card">
+        <h3>Rideshare</h3>
+        <p>For ease and safety, we recommend arriving by Uber or Lyft. Guests who select rideshare in their RSVP will receive a voucher to supplement their ride.</p>
+      </article>
 
-    <p>
-      <strong>Hotel Recommendations:</strong> A curated list of nearby hotels will be provided as part of your RSVP confirmation.
+      <article class="access-card">
+        <h3>Hotel Recommendations</h3>
+        <p>We recommend staying nearby for convenience. Here are the closest options:</p>
+        <ul class="hotel-list">
+          <li><strong>The Ramble Hotel</strong> — 1280 25th St, Denver (≈0.7 mi)</li>
+          <li><strong>Catbird Hotel</strong> — 3770 Walnut St, Denver (≈0.5 mi)</li>
+          <li><strong>The Source Hotel</strong> — 3330 Brighton Blvd, Denver (≈0.9 mi)</li>
+        </ul>
+      </article>
+
+      <article class="access-card access-rtd">
+        <h3>RTD (Public Transit)</h3>
+        <dl class="keyfacts">
+          <div>
+            <dt>Nearest station</dt>
+            <dd>30th &amp; Downing (closest stop)</dd>
+          </div>
+          <div>
+            <dt>To the venue</dt>
+            <dd>About 0.6 mi on foot (10–12 min) or a short rideshare.</dd>
+          </div>
+          <div>
+            <dt>Service notes</dt>
+            <dd>Confirm schedules well before you leave for the party.</dd>
+          </div>
+        </dl>
+        <p class="small-muted">Tip: Use the RTD Trip Planner or realtime updates on the day of travel.</p>
+      </article>
+    </div>
+  </div>
+</section>
+<section id="menu">
+  <div class="container fade-in">
+    <h2>The Menu</h2>
+    <p class="menu-intro">
+      A full menu reveal is coming soon. Expect seasonal flavors, rich textures, and a hint of circus flair. 
+  
+    </p>
+    <p class="menu-note">
+      Dietary accommodations will be available, please indicate any restrictions when you RSVP.
     </p>
   </div>
 </section>
- <div class="faq-item">
-      <button class="faq-question">Where is the venue and how do I park?</button>
-      <div class="faq-answer">The Arch, 3001 Walnut St, Denver. Free street parking and a paid lot are available nearby.</div>
+
+<section id="faq">
+  <div class="container fade-in">
+    <h2>FAQ</h2>
+    <p style="margin-bottom: .75rem; opacity:.85;">A few things you may wish to know before the lights go up.</p>
+
+    <div class="faq-item">
+      <button class="faq-question" id="faq-btn-1" aria-controls="faq-1" aria-expanded="false">
+        What time should I arrive to make the most of the evening?
+      </button>
+      <div class="faq-answer" id="faq-1" role="region" aria-labelledby="faq-btn-1">
+        <p>We recommend arriving between 7:00 and 8:00 PM. The Steve Larsen Award presentation begins promptly at 8:00 PM, so please plan to arrive beforehand.</p>
+      </div>
     </div>
 
     <div class="faq-item">
-      <button class="faq-question">What’s the dress code?</button>
-      <div class="faq-answer">Cocktail-to-formal. Think rich jewel tones, velvet, satin, and elegant textures.</div>
+      <button class="faq-question" id="faq-btn-2" aria-controls="faq-2" aria-expanded="false">
+        Will there be somewhere to check coats and bags?
+      </button>
+      <div class="faq-answer" id="faq-2" role="region" aria-labelledby="faq-btn-2">
+        <p>Yes, a self-serve coat check will be available for your convenience.</p>
+      </div>
     </div>
 
     <div class="faq-item">
-      <button class="faq-question">Can I bring a guest?</button>
-      <div class="faq-answer">Only if your invitation includes a +1. All RSVPs are assigned individually.</div>
+      <button class="faq-question" id="faq-btn-3" aria-controls="faq-3" aria-expanded="false">
+        Is there a bar, and are drinks complimentary?
+      </button>
+      <div class="faq-answer" id="faq-3" role="region" aria-labelledby="faq-btn-3">
+        <p>Yes. Beer and wine will be served until 10:00 PM, and each guest will receive drink tickets upon arrival.</p>
+      </div>
     </div>
 
     <div class="faq-item">
-      <button class="faq-question">What if I didn’t get my RSVP link?</button>
-      <div class="faq-answer">Email [Insert contact] and we’ll re-send it. RSVP links are required for entry.</div>
+      <button class="faq-question" id="faq-btn-4" aria-controls="faq-4" aria-expanded="false">
+        Are masquerade masks provided, or should I bring my own?
+      </button>
+      <div class="faq-answer" id="faq-4" role="region" aria-labelledby="faq-btn-4">
+        <p>A prop table will be set with masks and accessories for you to take and keep if you wish.</p>
+      </div>
     </div>
 
     <div class="faq-item">
-      <button class="faq-question">Will there be food for allergies or dietary needs?</button>
-      <div class="faq-answer">Yes — just make sure you submit your dietary preferences through your RSVP link.</div>
+      <button class="faq-question" id="faq-btn-5" aria-controls="faq-5" aria-expanded="false">
+        Will there be vegetarian or vegan options at dinner?
+      </button>
+      <div class="faq-answer" id="faq-5" role="region" aria-labelledby="faq-btn-5">
+        <p>Yes. All dietary preferences can be accommodated at both dinner and during the opening appetizers. Please select your meal when you RSVP.</p>
+      </div>
     </div>
 
     <div class="faq-item">
-    <button class="faq-question">What happens after dinner?</button>
-      <div class="faq-answer">After 9:00 PM, the venue transforms. Expect immersive after-party vibes with performers, whiskey tasting, dessert lounges, and surprises worth staying for.</div>
+      <button class="faq-question" id="faq-btn-6" aria-controls="faq-6" aria-expanded="false">
+        Can I bring a guest?
+      </button>
+      <div class="faq-answer" id="faq-6" role="region" aria-labelledby="faq-btn-6">
+        <p>If your RSVP includes a guest, you will be notified when you receive your invitation.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question" id="faq-btn-7" aria-controls="faq-7" aria-expanded="false">
+        Will there be seating available outside of dinner?
+      </button>
+      <div class="faq-answer" id="faq-7" role="region" aria-labelledby="faq-btn-7">
+        <p>Yes, seating will be available throughout the venue during the entire evening.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question" id="faq-btn-8" aria-controls="faq-8" aria-expanded="false">
+        Is there a photographer or photo booth?
+      </button>
+      <div class="faq-answer" id="faq-8" role="region" aria-labelledby="faq-btn-8">
+        <p>There will be a photo booth available for guests to enjoy during the night.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question" id="faq-btn-9" aria-controls="faq-9" aria-expanded="false">
+        Will there be any outdoor areas, and should I bring a jacket?
+      </button>
+      <div class="faq-answer" id="faq-9" role="region" aria-labelledby="faq-btn-9">
+        <p>A patio will be open for guests, including a designated smoking area. December evenings in Denver can be chilly, so a jacket is recommended.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question" id="faq-btn-10" aria-controls="faq-10" aria-expanded="false">
+        How should I let someone know if I can no longer attend?
+      </button>
+      <div class="faq-answer" id="faq-10" role="region" aria-labelledby="faq-btn-10">
+        <p>Please let us know as soon as possible. Email <a href="mailto:kpfannschmidt@prim.com">kpfannschmidt@prim.com</a> or <a href="mailto:taegan.thomas@prim.com">taegan.thomas@prim.com</a> with any questions or updates regarding your RSVP.</p>
+      </div>
     </div>
   </div>
-</section>    <section id="gallery"><div class="container"><h2>Gallery / Moodboard</h2></div></section>
-  </main>
+</section>
+<section id="toast">
+  <div class="container fade-in;">
+    <h2>A Toast to the Team</h2>
+    <p>
+        Tonight we gather to honor the people whose dedication, expertise, and collaboration keep our projects moving and our vision on course.  
+      While our field crews bring the work to life on the ground, it is your skill in guiding, supporting, and connecting each step that makes success possible.  
+      This evening is a celebration of your contributions and of the shared achievements we create together.
+    </p>
+  <p>
+      From our Primoris Renewable Energy team, thank you. 
+    </p>
+  </div>
+</section>
+<section id="contact">
+  <div class="container fade-in">
+    <h2>Get in Touch</h2>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <img src="images/kait.png" alt="Kaitlynn Pfannschmidt">
+        <p><strong>Kaitlynn Pfannschmidt</strong><br>
+        <a href="mailto:kpfannschmidt@prim.com">kpfannschmidt@prim.com</a></p>
+      </div>
+      <div class="contact-card">
+        <img src="images/taegan.jpg" alt="Taegan Thomas">
+        <p><strong>Taegan Thomas</strong><br>
+        <a href="mailto:taegan.thomas@prim.com">taegan.thomas@prim.com</a></p>
+      </div>
+         <div class="contact-card">
+        <img src="images/kayla.JPG" alt="Kayla Kuykendall">
+        <p><strong>Kayla Kuykendall</strong><br>
+        <a href="mailto:KKuykendall@prim.com">taegan.thomas@prim.com</a></p>
+      </div>
+         <div class="contact-card">
+        <img src="images/taegan.jpg" alt="Rey Turner">
+        <p><strong>Rey Turner</strong><br>
+        <a href="mailto:reyhaneh.turner@prim.com">taegan.thomas@prim.com</a></p>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <footer>
-    <p>#TheMidnightCircus • Primoris Renewable Energy • Questions? [Insert contact email or Teams link]</p>
-  </footer>
+
+<footer>
+  <div class="container fade-in">
+    <p>&copy; 2025 Your Brand Name. All rights reserved.</p>
+    <p><a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
+  </div>
+</footer>
 
   <script src="scripts/main.js"></script>
+  <button id="backToTop" aria-label="Back to top">
+  ↑
+</button>
+
 </body>
 </html>

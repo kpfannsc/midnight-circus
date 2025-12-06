@@ -147,7 +147,7 @@ if (!prefersReduced && "IntersectionObserver" in window) {
 });
 // Countdown Timer
 (function(){
-  const eventDate = new Date("December 6, 2025 19:00:00"); // 7:00 PM local
+  const eventDate = new Date("December 6, 2025 18:00:00"); // 6:00 PM local
   const timerElement = document.getElementById("timer");
   if (!timerElement) return;
 
